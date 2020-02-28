@@ -1,3 +1,24 @@
+# Table of Contents
+- [Network Traffic Data Analysis Project](#network-traffic-data-analysis-project)
+- [Data Sources and Collection](#data-sources-and-collection)
+  * [UNSW-NB15 Dataset](#unsw-nb15-dataset)
+  * [Research on UNSW-NB15](#research-on-unsw-nb15)
+- [Data Preprocessing](#data-preprocessing)
+  * [Importing CSV into a Pandas Dataframe](#importing-csv-into-a-pandas-dataframe)
+  * [Categorical Feature Encoding](#categorical-feature-encoding)
+    + [One Hot](#one-hot)
+    + [Hash Trick](#hash-trick)
+  * [Normalization (Numeric Columns)](#normalization--numeric-columns-)
+- [Data Analysis](#data-analysis)
+  * [Observing UNSW-NB15 Data with UMAP](#observing-unsw-nb15-data-with-umap)
+  * [SKLearn Random Forest on UNSW-NB15](#sklearn-random-forest-on-unsw-nb15)
+  * [Tensorflow 2 ANN on UNSW-NB15](#tensorflow-2-ann-on-unsw-nb15)
+- [Data Products](#data-products)
+- [Sources/Citations](#sources-citations)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 # Network Traffic Data Analysis Project
 The basis of this project is a small exploration of data analysis techniques and its application to cybersecurity. These notes are meant to outline a rough draft for a set of tools that can be used to move towards applied machine learning in the network traffic analysis and IDS (Intrustion Detection System) space. 
 
