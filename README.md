@@ -26,7 +26,7 @@ Overall, I am trying to dig into the answer for this question:
 
 **What is required to perform applied machine learning in a cybersecurity setting?**
 
-![alt text](TheStackML.png)
+![alt text](./img/TheStackML.png)
 
 
 # Data Sources and Collection
@@ -38,7 +38,7 @@ In cybersecurity, datasources are often comprised of:
 4) Academic/Research data sources
 
 Splunk provides a quality depiction of how one might use their organization's SIEM as a data source. (https://www.splunk.com/en_us/blog/conf-splunklive/what-s-new-in-the-splunk-machine-learning-toolkit-4-0-part-2.html)
-![alt text](splunk.png)
+![alt text](./img/splunk.png)
 
 There are a wealth of datasets available online. A popular curated list is linked below.
 
@@ -103,7 +103,7 @@ A disadvantage on one-hot encoding is that is increases the dimensionality of ou
 
 As we can see in the figure below, the `proto` category of the unsw-nb15 dataset has quite a few categories.
 
-![alt text](one_hot2.png)
+![alt text](./img./img//one_hot2.png)
 
 
 
@@ -125,7 +125,7 @@ Normalization is performed in order to ensure that all values in every numeric c
 
 >Since the range of values of raw data varies widely, in some machine learning algorithms, objective functions will not work properly without normalization. For example, many classifiers calculate the distance between two points by the Euclidean distance. If one of the features has a broad range of values, the distance will be governed by this particular feature. Therefore, the range of all features should be normalized so that each feature contributes approximately proportionately to the final distance. 
 
-![alt text](numeric_scaling.png)
+![alt text](./img/numeric_scaling.png)
 
 # Data Analysis
 ## Observing UNSW-NB15 Data with UMAP
@@ -146,10 +146,13 @@ Using UMAP perform dimension reduction and view the spacial relationships of clu
 
 https://github.com/jackg-ch/unswnb15-model-1/blob/master/UMAP_UNSW-NB15_2.ipynb
 
+The resulting plot of the above notebook provides some interesting into the spatial relationships of the data in 2-dimensions.
+![alt  text](./img/umap_unsw-nb15.png)
+
 
 ## SKLearn Random Forest on UNSW-NB15
 
-![alt text](decision_tree.jpeg)
+![alt text](./img/decision_tree.jpeg)
 
 Source: https://towardsdatascience.com/understanding-random-forest-58381e0602d2
 
